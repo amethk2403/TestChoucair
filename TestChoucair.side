@@ -1,0 +1,1315 @@
+{
+  "id": "74a7955a-0a1c-4300-9ec2-54462ca8e93c",
+  "version": "2.0",
+  "name": "TestChoucair",
+  "url": "https://www.choucairtesting.com",
+  "tests": [{
+    "id": "42f6a30f-3d1d-48f1-a4b0-bdf6453a10bc",
+    "name": "1. Validar ingreso a sitio Web y sección Empleos",
+    "commands": [{
+      "id": "6ec34f48-32af-4860-8182-18db7eafcc4e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22120e32-d9fb-41be-abbf-c1a7959bf2e3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1279x693",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45190314-6ea6-4d16-b503-dff4680b28d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-slider-stopped .fa",
+      "targets": [
+        ["css=.text-slider-stopped .fa", "css:finder"],
+        ["xpath=//div[@id='slideshow']/div[2]/a/i", "xpath:idRelative"],
+        ["xpath=//div[2]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5416a8d3-f58c-4c43-bca5-af0c007c9afb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Empleos",
+      "targets": [
+        ["linkText=Empleos", "linkText"],
+        ["css=#menu-item-550 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Empleos')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-550']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.choucairtesting.com/empleos-2/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Empleos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f0983d83-a81a-4f27-a241-30fc343100cd",
+    "name": "2. Validar opción ¿Qué es ser Choucair?",
+    "commands": [{
+      "id": "9550dcb7-6fe4-437a-91ae-a3c77c062e65",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aee78e75-9ee6-4d12-8571-761ce9209f40",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1279x693",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a06a7d7-af36-4774-9a8d-26ffe3e61773",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Comunidad",
+      "targets": [
+        ["linkText=Comunidad", "linkText"],
+        ["css=#menu-item-2661 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Comunidad')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2661']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.choucairtesting.com/comunidad/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Comunidad')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e309468-e3ef-4d56-85a4-57b76678d234",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Empleos",
+      "targets": [
+        ["linkText=Empleos", "linkText"],
+        ["css=#menu-item-550 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Empleos')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-550']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.choucairtesting.com/empleos-2/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Empleos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "388ebb6d-9305-4a30-ae2f-2789c9bdc4f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-e42abd8 .elementor-animation-grow",
+      "targets": [
+        ["css=.elementor-element-e42abd8 .elementor-animation-grow", "css:finder"],
+        ["xpath=//img[@alt='serchazuleMesa de trabajo 1']", "xpath:img"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[2]/div/div/div/div/div/div/div/div/figure/a/img", "xpath:idRelative"],
+        ["xpath=//figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c5271ea-d8fb-4906-b913-a1411cb3b567",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,784)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "963a2fc1-47cd-4d35-9623-5ee0f81faa4c",
+    "name": "3. Validar opción Convocatoria",
+    "commands": [{
+      "id": "622349f0-68bc-4026-bfc0-b61506aa3539",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e498a4ef-9aad-4fea-91e9-2e45f77db65c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1308x698",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c189df2-d3c2-44e3-9a40-dbf574fec968",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Empleos",
+      "targets": [
+        ["linkText=Empleos", "linkText"],
+        ["css=#menu-item-550 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Empleos')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-550']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.choucairtesting.com/empleos-2/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Empleos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d263fe2a-275e-4879-bcaa-ac75bb5318b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-c9f08af .elementor-animation-grow",
+      "targets": [
+        ["css=.elementor-element-c9f08af .elementor-animation-grow", "css:finder"],
+        ["xpath=//img[@alt='empleosazuleMesa de trabajo 1']", "xpath:img"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[2]/div/div/div[2]/div/div/div/div/div/figure/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a3a74e0-3777-4d98-9951-d9ae06085dcc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-9b68299 .elementor-divider",
+      "targets": [
+        ["css=.elementor-element-9b68299 .elementor-divider", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[7]/div/div/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//section[7]/div/div/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2535d207-646b-4103-b807-1e34088149d1",
+    "name": "4. Validar busqueda por Palabra Clave de la opción Convocatoria",
+    "commands": [{
+      "id": "8d122b16-29eb-4bbc-8c9f-a4426d2c0923",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2605d5c9-a7d7-4b55-abaf-ac26138d6bc3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7c2cea1-fe32-4281-8be7-a3ba7cc01038",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Empleos",
+      "targets": [
+        ["linkText=Empleos", "linkText"],
+        ["css=#menu-item-550 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Empleos')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-550']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.choucairtesting.com/empleos-2/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Empleos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95a8d7b8-15bd-4569-be33-b28686756ea5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-c9f08af .elementor-animation-grow",
+      "targets": [
+        ["css=.elementor-element-c9f08af .elementor-animation-grow", "css:finder"],
+        ["xpath=//img[@alt='empleosazuleMesa de trabajo 1']", "xpath:img"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[2]/div/div/div[2]/div/div/div/div/div/figure/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9f0c990-cba5-4684-becc-8af14caad611",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-08c7952 .elementor-text-editor",
+      "targets": [
+        ["css=.elementor-element-08c7952 .elementor-text-editor", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[8]/div/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//section[8]/div/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b314684-9a25-4c2e-a712-c12b72c2ee68",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-5b14884 .elementor-widget-wrap",
+      "targets": [
+        ["css=.elementor-element-5b14884 .elementor-widget-wrap", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[8]/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//section[8]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9d523d3-a02f-4e5d-8915-97a0b8a83958",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-08c7952",
+      "targets": [
+        ["css=.elementor-element-08c7952", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[8]/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//section[8]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87a3bb91-27f2-4f91-a853-5a1497520021",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-26cbf626 .elementor-widget-wrap",
+      "targets": [
+        ["css=.elementor-element-26cbf626 .elementor-widget-wrap", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//section[12]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ec244c5-8454-44ce-a04c-861d8020bd11",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_keywords",
+      "targets": [
+        ["id=search_keywords", "id"],
+        ["name=search_keywords", "name"],
+        ["css=#search_keywords", "css:finder"],
+        ["xpath=//input[@id='search_keywords']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f21697a-d49b-41bf-be46-cb7db1f0bd52",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_keywords",
+      "targets": [
+        ["id=search_keywords", "id"],
+        ["name=search_keywords", "name"],
+        ["css=#search_keywords", "css:finder"],
+        ["xpath=//input[@id='search_keywords']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "analista"
+    }, {
+      "id": "81a86eaa-e9b4-4af3-beaf-e74cfb2e1162",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search_submit > input",
+      "targets": [
+        ["css=.search_submit > input", "css:finder"],
+        ["xpath=//input[@value='Buscar trabajos']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6c2e00e-5a88-478e-9fd8-aeb23175f97e",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["css=#content", "css:finder"],
+        ["xpath=//div[@id='content']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "41afd4c1-0378-4cf3-b59a-50edc4afd582",
+    "name": "5. Validar busqueda por Palabra Clave de la opción Convocatoria, palabras incorrectas",
+    "commands": [{
+      "id": "a0ffd510-2413-40ad-93d9-1fc1afce7d68",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ccf6920d-f96d-412d-8e9e-2850f07f8ac5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1308x698",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5f30fdf-ae17-4d4d-9178-11b4d07d7aab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Empleos",
+      "targets": [
+        ["linkText=Empleos", "linkText"],
+        ["css=#menu-item-550 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Empleos')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-550']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.choucairtesting.com/empleos-2/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Empleos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92c4aba4-7e88-4bb2-9b44-b7d4968a69ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-c9f08af .elementor-animation-grow",
+      "targets": [
+        ["css=.elementor-element-c9f08af .elementor-animation-grow", "css:finder"],
+        ["xpath=//img[@alt='empleosazuleMesa de trabajo 1']", "xpath:img"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[2]/div/div/div[2]/div/div/div/div/div/figure/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b59228e-26bb-45c2-812f-dd0f13329c2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-08c7952 p:nth-child(1)",
+      "targets": [
+        ["css=.elementor-element-08c7952 p:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[8]/div/div/div/div/div/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//section[8]/div/div/div/div/div/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Estamos en constante innovación y crecimiento y por eso buscamos nuevos talentos, desde profesionales en formación que puedan aprender y ser promovidos dentro de la compañía como profesionales que nos complementen y nos ayuden a crecer con cada reto.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a9571a3-7903-4003-a3d2-f096e30f112b",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_keywords",
+      "targets": [
+        ["id=search_keywords", "id"],
+        ["name=search_keywords", "name"],
+        ["css=#search_keywords", "css:finder"],
+        ["xpath=//input[@id='search_keywords']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4fc731c-6844-41b8-9365-cb5076896c30",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_keywords",
+      "targets": [
+        ["id=search_keywords", "id"],
+        ["name=search_keywords", "name"],
+        ["css=#search_keywords", "css:finder"],
+        ["xpath=//input[@id='search_keywords']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03dbb7cb-d778-4248-ab98-e7b76a3e206c",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_keywords",
+      "targets": [
+        ["id=search_keywords", "id"],
+        ["name=search_keywords", "name"],
+        ["css=#search_keywords", "css:finder"],
+        ["xpath=//input[@id='search_keywords']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "cocinero"
+    }, {
+      "id": "5bf12124-dc10-448f-a92e-d951bf39d18a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search_submit > input",
+      "targets": [
+        ["css=.search_submit > input", "css:finder"],
+        ["xpath=//input[@value='Buscar trabajos']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b7914467-1965-4c9b-891e-eebe5ab7efd7",
+    "name": "6. Validar busqueda por Ubicación de la opción Convocatoria",
+    "commands": [{
+      "id": "1d2467ab-4044-4a42-a273-b72c2603f7a8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dbcaab79-69cc-4a40-90d2-09c763f2ed03",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1308x698",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be1c258a-57ac-4ab2-af6c-ac9d7f2d4800",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Empleos",
+      "targets": [
+        ["linkText=Empleos", "linkText"],
+        ["css=#menu-item-550 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Empleos')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-550']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.choucairtesting.com/empleos-2/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Empleos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9456fa5f-6095-4c55-80d0-6ba447cf2c29",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-c9f08af .elementor-image-box-wrapper",
+      "targets": [
+        ["css=.elementor-element-c9f08af .elementor-image-box-wrapper", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[2]/div/div/div[2]/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d0a3ff8-b41c-4d0e-878f-3aceee5591ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-c9f08af .elementor-animation-grow",
+      "targets": [
+        ["css=.elementor-element-c9f08af .elementor-animation-grow", "css:finder"],
+        ["xpath=//img[@alt='empleosazuleMesa de trabajo 1']", "xpath:img"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[2]/div/div/div[2]/div/div/div/div/div/figure/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "408c9791-fb46-46ff-a5a9-7f2f61513c37",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-size-default",
+      "targets": [
+        ["css=.elementor-size-default", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//section[12]/div/div/div/div/div/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'EMPLEOS DISPONIBLES')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "251c89b4-0cd9-4a0a-96db-0a9bfdeb0a70",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_location",
+      "targets": [
+        ["id=search_location", "id"],
+        ["name=search_location", "name"],
+        ["css=#search_location", "css:finder"],
+        ["xpath=//input[@id='search_location']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "278001f7-24f0-4157-ab87-3f48a065349f",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_location",
+      "targets": [
+        ["id=search_location", "id"],
+        ["name=search_location", "name"],
+        ["css=#search_location", "css:finder"],
+        ["xpath=//input[@id='search_location']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "791004d0-58db-4600-b030-9df0885ee490",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_location",
+      "targets": [
+        ["id=search_location", "id"],
+        ["name=search_location", "name"],
+        ["css=#search_location", "css:finder"],
+        ["xpath=//input[@id='search_location']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a84f7ab-f40d-4797-9838-590ea2e3c3ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_location",
+      "targets": [
+        ["id=search_location", "id"],
+        ["name=search_location", "name"],
+        ["css=#search_location", "css:finder"],
+        ["xpath=//input[@id='search_location']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d69a103-2aa3-4890-8d32-7d379a399253",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_location",
+      "targets": [
+        ["id=search_location", "id"],
+        ["name=search_location", "name"],
+        ["css=#search_location", "css:finder"],
+        ["xpath=//input[@id='search_location']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Panama"
+    }, {
+      "id": "85d42646-1eb0-4889-94b4-9dae6d67bb70",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search_submit > input",
+      "targets": [
+        ["css=.search_submit > input", "css:finder"],
+        ["xpath=//input[@value='Buscar trabajos']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "247ccfa4-adbd-483a-9b2a-f5d9ea412a45",
+    "name": "7. Validar busqueda por Ubicación de la opción Convocatoria, palabras incorrectas",
+    "commands": [{
+      "id": "a7694ea6-7748-424c-ba67-f36daefa763c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38b59ab8-eb88-40eb-8da8-212f82f8d5dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a1cf9d9-4a8d-4bc6-a2a5-61b5a63ac367",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Empleos",
+      "targets": [
+        ["linkText=Empleos", "linkText"],
+        ["css=#menu-item-550 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Empleos')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-550']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.choucairtesting.com/empleos-2/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Empleos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcf57820-8e04-4e6e-a871-59bd9f791c40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-c9f08af .elementor-animation-grow",
+      "targets": [
+        ["css=.elementor-element-c9f08af .elementor-animation-grow", "css:finder"],
+        ["xpath=//img[@alt='empleosazuleMesa de trabajo 1']", "xpath:img"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[2]/div/div/div[2]/div/div/div/div/div/figure/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "422c6174-4286-4fc1-b36c-d2fba2f3411a",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_location",
+      "targets": [
+        ["id=search_location", "id"],
+        ["name=search_location", "name"],
+        ["css=#search_location", "css:finder"],
+        ["xpath=//input[@id='search_location']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8af2222-99f2-41a9-a09d-c7f613d42009",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_location",
+      "targets": [
+        ["id=search_location", "id"],
+        ["name=search_location", "name"],
+        ["css=#search_location", "css:finder"],
+        ["xpath=//input[@id='search_location']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Canada"
+    }, {
+      "id": "54a19aeb-a42f-457f-8a8e-af24345120b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search_submit > input",
+      "targets": [
+        ["css=.search_submit > input", "css:finder"],
+        ["xpath=//input[@value='Buscar trabajos']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bcc7b5a-77aa-471e-8bf9-6163560c5800",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-section-wrap",
+      "targets": [
+        ["css=.elementor-section-wrap", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0cafaf85-bd6e-4e92-bf1b-5aecec6ce06e",
+    "name": "8. Validar busqueda por Palabras Claves y Ubicación de la opción Convocatoria",
+    "commands": [{
+      "id": "58ffd2a2-400c-48e1-9c99-019e908327c0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bab194d-14b7-40a3-b900-88773886f50f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edf7e4d1-9b60-4325-ac20-6964b1f21d9e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Empleos",
+      "targets": [
+        ["linkText=Empleos", "linkText"],
+        ["css=#menu-item-550 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Empleos')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-550']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.choucairtesting.com/empleos-2/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Empleos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4a99f85-8ac3-4d86-80d0-ec8f179b959e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-c9f08af .elementor-animation-grow",
+      "targets": [
+        ["css=.elementor-element-c9f08af .elementor-animation-grow", "css:finder"],
+        ["xpath=//img[@alt='empleosazuleMesa de trabajo 1']", "xpath:img"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[2]/div/div/div[2]/div/div/div/div/div/figure/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6034724e-e6d7-442b-99dc-c1a69c4dbd04",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_keywords",
+      "targets": [
+        ["id=search_keywords", "id"],
+        ["name=search_keywords", "name"],
+        ["css=#search_keywords", "css:finder"],
+        ["xpath=//input[@id='search_keywords']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ff8be5d-7232-417d-b422-47920a977ce5",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_keywords",
+      "targets": [
+        ["id=search_keywords", "id"],
+        ["name=search_keywords", "name"],
+        ["css=#search_keywords", "css:finder"],
+        ["xpath=//input[@id='search_keywords']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4d98918-d23c-48c2-a5b2-6cac61c0a31c",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_keywords",
+      "targets": [
+        ["id=search_keywords", "id"],
+        ["name=search_keywords", "name"],
+        ["css=#search_keywords", "css:finder"],
+        ["xpath=//input[@id='search_keywords']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9465cd17-c402-46b7-9a69-801e3d4eb420",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_keywords",
+      "targets": [
+        ["id=search_keywords", "id"],
+        ["name=search_keywords", "name"],
+        ["css=#search_keywords", "css:finder"],
+        ["xpath=//input[@id='search_keywords']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "analista"
+    }, {
+      "id": "e36d6578-09b6-4164-ad64-901e865d77b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_location",
+      "targets": [
+        ["id=search_location", "id"],
+        ["name=search_location", "name"],
+        ["css=#search_location", "css:finder"],
+        ["xpath=//input[@id='search_location']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a32efde-5a4c-4d35-8ac8-cbc799103b53",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.search_submit > input",
+      "targets": [
+        ["css=.search_submit > input", "css:finder"],
+        ["xpath=//input[@value='Buscar trabajos']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a2e11a3-9e8a-48e9-9e9b-d3c2c39f3cc9",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_location",
+      "targets": [
+        ["id=search_location", "id"],
+        ["name=search_location", "name"],
+        ["css=#search_location", "css:finder"],
+        ["xpath=//input[@id='search_location']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "panama"
+    }, {
+      "id": "627bb972-4f2b-492a-baf7-b6b07b9ac827",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search_submit > input",
+      "targets": [
+        ["css=.search_submit > input", "css:finder"],
+        ["xpath=//input[@value='Buscar trabajos']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "499c9c77-a145-4427-a279-3849e9df8901",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.search_submit > input",
+      "targets": [
+        ["css=.search_submit > input", "css:finder"],
+        ["xpath=//input[@value='Buscar trabajos']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31a8fa73-5389-48f6-8bf4-8533fb7cf8af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search_submit > input",
+      "targets": [
+        ["css=.search_submit > input", "css:finder"],
+        ["xpath=//input[@value='Buscar trabajos']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "554ae691-60f7-4f3f-8403-8a239a2edf0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-section-wrap",
+      "targets": [
+        ["css=.elementor-section-wrap", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "455c1b08-de4d-4524-a3e3-0ffaa735f6aa",
+    "name": "9. Validar busqueda por Palabras Claves y Ubicación de la opción Convocatoria, palabras incorrectas",
+    "commands": [{
+      "id": "acc35025-24c5-4244-ada5-5ff997a07d3e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5136d16-ded3-49f0-90e4-9d5480b77514",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1308x698",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "578eccc3-0174-46b0-8c81-e92c695097ea",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Empleos",
+      "targets": [
+        ["linkText=Empleos", "linkText"],
+        ["css=#menu-item-550 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Empleos')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-550']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.choucairtesting.com/empleos-2/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Empleos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbc722cf-62af-404e-a6ad-f8b9ec4ff997",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-c9f08af .elementor-animation-grow",
+      "targets": [
+        ["css=.elementor-element-c9f08af .elementor-animation-grow", "css:finder"],
+        ["xpath=//img[@alt='empleosazuleMesa de trabajo 1']", "xpath:img"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[2]/div/div/div[2]/div/div/div/div/div/figure/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7a735b1-31df-4b16-84ae-c91b87c1da50",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,792)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3617abf1-2297-4e2d-9c90-78cda3070068",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_keywords",
+      "targets": [
+        ["id=search_keywords", "id"],
+        ["name=search_keywords", "name"],
+        ["css=#search_keywords", "css:finder"],
+        ["xpath=//input[@id='search_keywords']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b5ac514-1bc9-4159-8c92-3f3d004f7138",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_keywords",
+      "targets": [
+        ["id=search_keywords", "id"],
+        ["name=search_keywords", "name"],
+        ["css=#search_keywords", "css:finder"],
+        ["xpath=//input[@id='search_keywords']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "doctor"
+    }, {
+      "id": "39847510-0b0a-41fd-97b9-c19e4a407890",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_location",
+      "targets": [
+        ["id=search_location", "id"],
+        ["name=search_location", "name"],
+        ["css=#search_location", "css:finder"],
+        ["xpath=//input[@id='search_location']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "australia"
+    }, {
+      "id": "6cd55211-08fd-4c8f-9467-90e27b4ac253",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search_submit > input",
+      "targets": [
+        ["css=.search_submit > input", "css:finder"],
+        ["xpath=//input[@value='Buscar trabajos']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "19dd5321-13e0-4445-bd3e-a240beba4ff6",
+    "name": "10. Validar busqueda por Palabras Claves y Ubicación de la opción Convocatoria, palabras incorrectas y ubicación correcta",
+    "commands": [{
+      "id": "23009e97-b747-4e5c-8d06-3c4ee4686722",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35998168-d0ca-4397-9563-bc6a8511a332",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "897a263c-5d83-4a88-a6b5-bd06fc2a3776",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Empleos",
+      "targets": [
+        ["linkText=Empleos", "linkText"],
+        ["css=#menu-item-550 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Empleos')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-550']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.choucairtesting.com/empleos-2/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Empleos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "988d35be-316d-47c4-87c9-dd33467cc404",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-c9f08af .elementor-animation-grow",
+      "targets": [
+        ["css=.elementor-element-c9f08af .elementor-animation-grow", "css:finder"],
+        ["xpath=//img[@alt='empleosazuleMesa de trabajo 1']", "xpath:img"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[2]/div/div/div[2]/div/div/div/div/div/figure/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e61993f-8419-43a9-bd6e-235051812a10",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_keywords",
+      "targets": [
+        ["id=search_keywords", "id"],
+        ["name=search_keywords", "name"],
+        ["css=#search_keywords", "css:finder"],
+        ["xpath=//input[@id='search_keywords']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b37d892-e03d-448c-aac1-7892ca1a2bf6",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_keywords",
+      "targets": [
+        ["id=search_keywords", "id"],
+        ["name=search_keywords", "name"],
+        ["css=#search_keywords", "css:finder"],
+        ["xpath=//input[@id='search_keywords']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "chofer"
+    }, {
+      "id": "e256bf5c-dd76-467e-a6d7-b2ada9d6bae3",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_location",
+      "targets": [
+        ["id=search_location", "id"],
+        ["name=search_location", "name"],
+        ["css=#search_location", "css:finder"],
+        ["xpath=//input[@id='search_location']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Medellin"
+    }, {
+      "id": "0fe11a57-f06f-45b4-ad45-269850bca564",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search_submit > input",
+      "targets": [
+        ["css=.search_submit > input", "css:finder"],
+        ["xpath=//input[@value='Buscar trabajos']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3551d14c-fb4c-42b0-bd79-8c75947f8412",
+    "name": "11. Validar busqueda por Palabras Claves y Ubicación de la opción Convocatoria, palabras correctas y ubicación incorrecta",
+    "commands": [{
+      "id": "61662107-015b-49ae-8cbb-482d9cd15393",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae8f4f70-8fcb-45e7-ae6b-d85e160b6dc1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee32e9bd-853e-48e4-a9ad-1a44c99f4357",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Empleos",
+      "targets": [
+        ["linkText=Empleos", "linkText"],
+        ["css=#menu-item-550 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Empleos')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-550']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.choucairtesting.com/empleos-2/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Empleos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8b35198-2936-4eea-a5a0-5702943d791d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-c9f08af .elementor-animation-grow",
+      "targets": [
+        ["css=.elementor-element-c9f08af .elementor-animation-grow", "css:finder"],
+        ["xpath=//img[@alt='empleosazuleMesa de trabajo 1']", "xpath:img"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[2]/div/div/div[2]/div/div/div/div/div/figure/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cc31480-577a-4a62-81e5-021408c27358",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_keywords",
+      "targets": [
+        ["id=search_keywords", "id"],
+        ["name=search_keywords", "name"],
+        ["css=#search_keywords", "css:finder"],
+        ["xpath=//input[@id='search_keywords']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25fe746d-27eb-4f2f-be2f-6ec14b77566a",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_keywords",
+      "targets": [
+        ["id=search_keywords", "id"],
+        ["name=search_keywords", "name"],
+        ["css=#search_keywords", "css:finder"],
+        ["xpath=//input[@id='search_keywords']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "analista"
+    }, {
+      "id": "8d0f654b-4a96-4dc0-bfa7-9b15b77b34cd",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_location",
+      "targets": [
+        ["id=search_location", "id"],
+        ["name=search_location", "name"],
+        ["css=#search_location", "css:finder"],
+        ["xpath=//input[@id='search_location']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "pakistan"
+    }, {
+      "id": "0004e98e-02db-4bc3-b62b-1daa7eb382f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search_submit > input",
+      "targets": [
+        ["css=.search_submit > input", "css:finder"],
+        ["xpath=//input[@value='Buscar trabajos']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/form/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "76f79b44-759e-4bb6-828b-b3856af30869",
+    "name": "12. Validar selección de trabajo mostrado en lista de la opcion Convocatoria",
+    "commands": [{
+      "id": "003cc3ce-cf0c-48d5-88b2-deaf57ad633a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad7eb26a-874c-4e51-990a-04db3288de6e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dbcbb19e-953a-4e84-98a9-3f996db7c22b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Empleos",
+      "targets": [
+        ["linkText=Empleos", "linkText"],
+        ["css=#menu-item-550 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Empleos')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-550']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.choucairtesting.com/empleos-2/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Empleos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c467b035-f1a4-4d3c-9d33-2282a56efc96",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-c9f08af .elementor-animation-grow",
+      "targets": [
+        ["css=.elementor-element-c9f08af .elementor-animation-grow", "css:finder"],
+        ["xpath=//img[@alt='empleosazuleMesa de trabajo 1']", "xpath:img"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[2]/div/div/div[2]/div/div/div/div/div/figure/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ab6eaac-1d55-4de2-9cf4-496c3d653e3c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,809)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "502069b0-0d7e-4df1-8cb3-11136d6ab812",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post-387 .tagline",
+      "targets": [
+        ["css=.post-387 .tagline", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[12]/div/div/div/div/div/div[2]/div/div/div/ul/li/a/div/div/span", "xpath:idRelative"],
+        ["xpath=//a/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Somos una compañía extraordinaria')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42c515eb-0068-4ca7-b90e-6dfcf7029b47",
+      "comment": "",
+      "command": "click",
+      "target": "css=.job_description > p:nth-child(9)",
+      "targets": [
+        ["css=.job_description > p:nth-child(9)", "css:finder"],
+        ["xpath=//article[@id='post-387']/div/div[2]/div[2]/p[6]", "xpath:idRelative"],
+        ["xpath=//p[6]", "xpath:position"],
+        ["xpath=//p[contains(.,'Beneficios:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "773e694c-821d-4471-a1fd-8b57d448b3a2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,679.0999755859375)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b474c36a-99a0-41b9-9a08-94577d543dcf",
+    "name": "13. Validar opción Prepararse para aplicar",
+    "commands": [{
+      "id": "d458a6d7-15f0-40e9-9ffb-b57119168572",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3d1330a-fb76-4963-ae9e-5dd3f18197e3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1308x698",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a9ed064-02c2-4ca6-af5d-ae1ce7725d06",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Empleos",
+      "targets": [
+        ["linkText=Empleos", "linkText"],
+        ["css=#menu-item-550 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Empleos')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-550']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.choucairtesting.com/empleos-2/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Empleos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "918dc91e-2d29-460c-9432-6ac9c7c41406",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-3c68718 .elementor-animation-grow",
+      "targets": [
+        ["css=.elementor-element-3c68718 .elementor-animation-grow", "css:finder"],
+        ["xpath=//img[@alt='empleosazulMesa de trabajo 1']", "xpath:img"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[2]/div/div/div[3]/div/div/div/div/div/figure/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e1b8936-a8c2-4366-961b-a30ab804b480",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-3c68718 .elementor-animation-grow",
+      "targets": [
+        ["css=.elementor-element-3c68718 .elementor-animation-grow", "css:finder"],
+        ["xpath=//img[@alt='empleosazulMesa de trabajo 1']", "xpath:img"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section[2]/div/div/div[3]/div/div/div/div/div/figure/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8e3704f5-988d-434c-ba98-aa24d9911a6c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.choucairtesting.com/"],
+  "plugins": []
+}
